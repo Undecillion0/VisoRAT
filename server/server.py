@@ -19,7 +19,7 @@ def load_config():
         default_config = {
             "security": {
                 "rate_limit_seconds": 1,
-                "min_token_length": 128,
+                "min_token_length": 32,
                 "check_duplicate_tokens": True
             },
             "endpoints": {
