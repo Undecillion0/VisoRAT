@@ -18,7 +18,7 @@ def load_config():
         print("ERROR: config.json not found! Creating template...")
         default_config = {
             "security": {
-                "rate_limit_seconds": 600,
+                "rate_limit_seconds": 1,
                 "min_token_length": 128,
                 "check_duplicate_tokens": True
             },
