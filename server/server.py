@@ -20,7 +20,7 @@ def load_config():
             "security": {
                 "rate_limit_seconds": 1,
                 "min_token_length": 32,
-                "check_duplicate_tokens": True
+                "check_duplicate_tokens": False
             },
             "endpoints": {
                 "/receive": {
